@@ -9,9 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'primary-black': '#1A232E',
+        'secondary-white': '#c7c7c7'
       },
+      fontFamily: {
+        eudoxus: ["Eudoxus-Sans", "sans-serif"]
+      },
+      blur: {
+        blur01: '125px',
+        blur02: '190px'
+      }
     },
   },
   plugins: [],
