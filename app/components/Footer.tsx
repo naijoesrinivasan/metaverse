@@ -33,12 +33,13 @@ export function Footer() {
             <h4 className="font-extrabold text-[24px] text-white">METAVERSES</h4>
             <p className="font-normal text-[14px] text-white opacity-50">All Rights Reserves &copy; Naijoe Srinivasan</p>
             <div className="flex gap-4">
-              {socials.map((image) => (
+              {socials.map((image, i) => (
                 <Image
                   src={image.url}
                   alt={image.name}
                   width={20}
                   height={20}
+                  key={i}
                 />
               ))}
             </div>
