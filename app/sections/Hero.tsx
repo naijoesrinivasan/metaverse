@@ -8,7 +8,7 @@ import Image from 'next/image';
 const Hero = () => (
   <section className={`yPaddings sm:pl-16 pl-6`}>
     <motion.div
-      variants={staggerContainer(0.5, 1)}
+      variants={staggerContainer(0.25, 0.5)}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
