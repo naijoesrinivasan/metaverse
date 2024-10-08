@@ -23,7 +23,7 @@ export default function WhatsNew() {
           className="flex-[0.75] flex justify-center flex-col"
         >
           <TypingText title="| What's New" textStyles="text-white" />
-          <TitleText title={<>What's new about Metaverse?</>} textStyles="" />
+          <TitleText title={<>What&apos;s new about Metaverse?</>} textStyles="" />
           <div className="mt-[48px] flex flex-wrap justify-between gap-12">
             {newFeatures.map((feature) => (
               <NewFeatures key={feature.title} {...feature} />

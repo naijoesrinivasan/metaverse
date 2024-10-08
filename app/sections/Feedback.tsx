@@ -8,7 +8,7 @@ export default function Feedback() {
   return (
     <section className="paddings relative z-10">
       <motion.div
-        variants={staggerContainer}
+        variants={staggerContainer(0.25, 0.5)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
@@ -24,7 +24,7 @@ export default function Feedback() {
             <h4 className="font-bold text-[26px] sm:text-[32px] leading-[36px] sm:leading-[40px] text-white">Samantha</h4>
             <p className="mt-[8px] font-normal text-[12px] sm:text-[18px] leading-[16px] sm:leading-[22px] text-white">Founder | Metaverse</p>
           </div>
-          <p className="mt-[24px] font-light text-[18px] sm:text-[24px] leading-[39px] sm:leading-[45px] text-white">“With the development of today's technology, metaverse is very useful for today's work, or can be called web 3.0. by using metaverse you can use it as anything”</p>
+          <p className="mt-[24px] font-light text-[18px] sm:text-[24px] leading-[39px] sm:leading-[45px] text-white">“With the development of today&apos;s technology, metaverse is very useful for today&apos;s work, or can be called web 3.0. by using metaverse you can use it as anything”</p>
         </motion.div>
         <motion.div
           variants={fadeIn('left', 'tween', 0.2, 1)}
