@@ -10,7 +10,7 @@ export default function About() {
     <section className="paddings relative z-10">
       <div className="gradient-02 blur-blur02 z-0" />
       <motion.div
-        variants={staggerContainer}
+        variants={staggerContainer(0.25, 0.5)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
